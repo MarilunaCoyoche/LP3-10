@@ -1,8 +1,6 @@
 public class LibreriaMathEjemplos {
     public static void main(String[] args) {
         double radio = 5.5;
-        double altura = 10.0;
-        
         double valorDecimal = 5.7;
         System.out.println("Redondeo hacia arriba de " + valorDecimal + " es: " + Math.ceil(valorDecimal));
         System.out.println("Redondeo hacia abajo de " + valorDecimal + " es: " + Math.floor(valorDecimal));
